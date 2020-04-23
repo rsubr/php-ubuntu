@@ -1,5 +1,5 @@
-FROM ubuntu:bionic
-LABEL Author="Raja Subramanian" Description="A comprehensive docker image to run PHP-7.2 cli applications like composer, wp-cli, drush, etc"
+FROM ubuntu:focal
+LABEL Author="Raja Subramanian" Description="A comprehensive docker image to run PHP-7.4 cli applications like composer, wp-cli, drush, etc"
 
 
 # Stop dpkg-reconfigure tzdata from prompting for input

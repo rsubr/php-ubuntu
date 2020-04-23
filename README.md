@@ -1,8 +1,14 @@
 # Description
 
-Docker image containing Ubuntu 18.04 LTS core with PHP CLI 7.2. This image is designed to be used in AWS environments for high density PHP application hosting. WordPress 5.x and Drupal 7.x are tested to work.
+Docker image containing Ubuntu 20.04 LTS core with PHP CLI 7.4. This image is designed to be used in AWS environments for high density PHP application hosting. WordPress 5.x and Drupal 7.x are tested to work.
 
 Companion docker container for github.com/rsubr/php-apache-ubuntu and intended to run wp-cli, drush, composer, etc.
+
+# Installing from Docker Hub
+
+```
+docker pull rsubr/php-ubuntu:focal
+```
 
 # Building
 To build:
