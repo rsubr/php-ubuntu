@@ -16,7 +16,8 @@ RUN apt-get update && \
         php-json \
         php-mime-type \
         php-tidy \
-        php-intl && \
+        php-intl \
+        php-xmlrpc && \
     apt-get -y autoremove && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
