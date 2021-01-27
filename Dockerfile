@@ -19,7 +19,7 @@ RUN apt-get update && \
         php-intl \
         php-xmlrpc && \
     apt-get -y autoremove && \
-    apt install --no-install-recommends imagemagick && \
+    apt-get -y install --no-install-recommends imagemagick && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
