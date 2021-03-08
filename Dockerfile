@@ -14,10 +14,14 @@ RUN apt-get update && \
         php-gd \
         php-mysql \
         php-json \
+        php-ldap \
         php-mime-type \
         php-tidy \
         php-intl \
-        php-xmlrpc && \
+        php-xmlrpc \
+        php-soap \
+        php-uploadprogress \
+        php-zip && \
     apt-get -y autoremove && \
     apt-get -y install --no-install-recommends imagemagick && \
     apt-get clean && \
