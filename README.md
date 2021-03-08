@@ -32,3 +32,6 @@ Update a WordPress site in /srv/example.com/www. On the docker host, ensure wp-c
 ```
 docker run --name=test-wp-update-core --rm -ti -v /srv/usr-local:/usr/local:ro -v /srv/example.com/www:/var/www/html rsubr/php-ubuntu:latest wp-cli --allow-root --path=/var/www/html core update
 ```
+
+# Notes
+This project is nolonger relevant as https://github.com/rsubr/php-apache-ubuntu/ already includes php-cli. This repository and docker image is maintainted for archival purposes only.
